@@ -10,7 +10,7 @@ import numpy as np
 file_to_load = "HeroesOfPymoli/Resources/purchase_data.csv"
 
 # Read purchasing file and store into pandas data frame
-purchase_data = pd.read_csv(file_to_load)
+purchase_data_df = pd.read_csv(file_to_load)
 
 total_players = purchase_data_df["SN"].nunique()
 total_players_df = pd.DataFrame({"Number of Total Players": [total_players]})
