@@ -14,7 +14,7 @@ purchase_data = pd.read_csv(file_to_load)
 
 total_players = purchase_data_df["SN"].nunique()
 total_players_df = pd.DataFrame({"Number of Total Players": [total_players]})
-total_players_df.head()
+total_players_df
 
 ```
 
